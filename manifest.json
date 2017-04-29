@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "dhcra.in URL Shortener",
+  "description": "This extension will shorten urls with dhcra.in",
+  "version": "1.0",
+
+  "browser_action": {
+   "default_icon": "icon.png",
+   "default_popup": "popup.html"
+  },
+  "permissions": [
+   "activeTab",
+   "http://*/",
+   "storage"
+   ]
+}
